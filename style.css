@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+* {
+  margin: 0px;
+  font-family: "Oswald", sans-serif;
+  padding: 0;
+}
+body {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+#mainContainer {
+  width: 50%;
+  height: auto;
+  border: 1px solid grey;
+  box-shadow: 5px 5px 20px black;
+  display: flex;
+  flex-flow: column;
+}
+#mainContainer #title {
+  display: flex;
+  justify-content: center;
+}
+#mainContainer #userInput {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+}
+#mainContainer #userInputString {
+  width: 200px;
+  display: flex;
+  align-self: center;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 2px;
+}
+#mainContainer #userSubmit {
+  padding: 1px;
+  margin-top: 10px;
+  height: 25px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid grey;
+  transition: 0.5s;
+}
+#stringManipulation {
+  display: flex;
+  flex-flow: column;
+}
+#stringManipulation button {
+  padding: 1px;
+  margin-top: 10px;
+  height: 25px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid grey;
+  width: 50%;
+  align-self: center;
+  transition: 0.5s;
+  margin: 10px;
+}
+#mainContainer button:hover {
+  background-color: rgb(104, 102, 102);
+  border: 1px solid white;
+  color: white;
+}
+#mainContainer button:active {
+  background-color: rgb(0, 0, 0);
+  border: 1px solid white;
+  color: white;
+}
+#resultOutput {
+  display: flex;
+  flex-flow: column;
+}
+#resultOutput #textOutput {
+  padding: 2px;
+  align-self: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 5px;
+}
